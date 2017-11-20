@@ -1,6 +1,6 @@
 # pastejs-docker-compose
 
-A docker-compose file to run an instance of paste
+A docker-compose file to run an instance of paste. See: https://github.com/bfellows37/pastejs
 
 ## How to run
 
