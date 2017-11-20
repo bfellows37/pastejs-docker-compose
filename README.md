@@ -6,5 +6,5 @@ A docker-compose file to run an instance of paste
 
 1. clone repo
 2. change to repo directory
-3. (optional) edit the `app.env` and `srv.env` files as necessary. It will work without editing but probably isn't as secure.
+3. (optional) edit the `app.env` and `srv.env` files as necessary. It will work without editing but probably isn't as secure or whatever.
 4. type `docker-compose up`
