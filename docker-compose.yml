@@ -5,7 +5,7 @@ services:
   srv:
     image: bfellows37/pasteapi:latest
     env_file:
-      - ./deploy/srv.env
+      - srv.env
     links:
       - mongo
 
@@ -14,7 +14,7 @@ services:
     ports:
       - 80:4200
     env_file:
-      - ./deploy/app.env
+      - app.env
     links:
       - srv
 
